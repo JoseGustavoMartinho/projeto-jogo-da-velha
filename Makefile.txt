@@ -1,0 +1,10 @@
+CC = gcc
+CFLAGS = -Wall -Wextra
+TARGET = jogo.exe
+SRC = main.c
+
+all:
+	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
+
+clean:
+	del $(TARGET) 2>nul || true
