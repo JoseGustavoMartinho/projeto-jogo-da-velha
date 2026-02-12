@@ -1,6 +1,3 @@
-Claro! Aqui está um README completo e profissional que você pode colocar no teu repositório do GitHub (📍 https://github.com/JoseGustavoMartinho/projeto-jogo-da-velha
-). Ele explica o projeto, como compilar, jogar, e destaca os recursos importantes 👇
-
 📌 Projeto: Jogo da Velha em C
 
 Um Jogo da Velha (Tic-Tac-Toe) desenvolvido em linguagem C com interface de texto no terminal, sistema de ranking persistente e opção de jogar contra outro jogador ou contra o computador.
