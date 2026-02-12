@@ -1,112 +1,84 @@
-📌 Projeto: Jogo da Velha em C
+🧩 Jogo da Velha em C
 
-Um Jogo da Velha (Tic-Tac-Toe) desenvolvido em linguagem C com interface de texto no terminal, sistema de ranking persistente e opção de jogar contra outro jogador ou contra o computador.
+Implementação do clássico Jogo da Velha (Tic-Tac-Toe) desenvolvida em linguagem C, com foco na prática de lógica de programação, estruturas de controle e manipulação de matrizes.
 
-Este projeto demonstra uso de:
-✔ Manipulação de arquivos
-✔ Estruturas (struct)
-✔ Ordenação de dados (ranking)
-✔ Modularização em funções
-✔ Compatibilidade Windows/Linux
+🚀 Tecnologias Utilizadas
 
-🧠 Sobre o Jogo
+Linguagem C
 
-Este é um jogo clássico de Jogo da Velha que:
+Compilador GCC (ou compatível)
 
-Permite dois jogadores humano ou jogar contra o computador.
+🎯 Objetivo do Projeto
 
-Mostra o tabuleiro no terminal.
+Este projeto foi desenvolvido com o objetivo de praticar:
 
-Verifica automaticamente vitória, empate e jogadas inválidas.
+Estruturas condicionais (if, else)
 
-Salva um ranking de vitórias em arquivo local (data/ranking.txt).
+Estruturas de repetição (for, while)
 
-📁 Estrutura do Projeto
-projeto-jogo-da-velha/
-├── data/
-│   └── ranking.txt   ← arquivo que guarda nomes das vitórias
-├── main.c            ← código-fonte em C
-├── Makefile.txt      ← arquivo para compilar (se desejar)
-├── LICENSE           ← licença MIT
-└── README.md         ← este arquivo
+Manipulação de matrizes bidimensionais
 
-⚙️ Como Compilar e Executar
-🛠 Requisitos
+Organização de lógica de jogo
 
-Compilador C (como gcc ou equivalente)
+Controle de fluxo
 
-Linha de comando ou terminal
+Validação de entradas
 
-🧾 Compilar usando C99
+🧠 Funcionalidades
 
-Este projeto usa recursos de padrão moderno C, então compile assim:
+✅ Tabuleiro 3x3
 
-gcc main.c -o jogo -std=c99
+✅ Alternância automática entre jogador X e O
 
+✅ Validação de jogadas (posição já ocupada)
 
-ou
+✅ Verificação de vitória (linhas, colunas e diagonais)
 
-gcc main.c -o jogo -std=gnu99
+✅ Verificação de empate
 
+✅ Interface via terminal
 
-💡 No Dev-C++ (em português), vá em Ferramentas → Opções do Compilador → Configurações → Padrão da linguagem e selecione ISO C99 ou adicione -std=c99.
+📂 Estrutura do Projeto
+main.c   # Arquivo principal com a lógica do jogo
 
-▶️ Jogar o Jogo
+▶️ Como Executar
+1️⃣ Compilar o programa
+gcc main.c -o jogo
 
-Depois de compilar, execute:
-
+2️⃣ Executar
 ./jogo
 
 
-No menu você pode:
+No Windows:
 
-👉 Jogar
+jogo.exe
 
-Escolher contra computador ou outro jogador.
+🎮 Como Jogar
 
-Inserir nomes dos jogadores.
+O jogo é jogado por dois jogadores.
 
-Jogar até vitória ou empate.
+Cada jogador escolhe uma posição no tabuleiro (linha e coluna).
 
-👉 Ver Ranking
+O jogador que completar uma linha, coluna ou diagonal vence.
 
-Mostra as principais vitórias por jogador.
+Caso todas as posições sejam preenchidas sem vencedor, ocorre empate.
 
-Ordenado por número de vitórias.
+📈 Melhorias Futuras
 
-👉 Créditos
+Modo jogador vs computador
 
-Lista dos participantes do projeto.
+Sistema de pontuação
 
-👉 Sair
+Interface gráfica
 
-🏆 Funcionalidades Principais
+Melhor organização em múltiplos arquivos
 
-✔ Interface de texto clara e interativa
-✔ Validação de entradas erradas
-✔ Impede jogadas em posições já ocupadas
-✔ Salva ranking e contabiliza vitórias por nome
-✔ Permite jogar contra o computador com jogadas randômicas
-
-✨ Melhorias Futuras (opcionais)
-
-Algumas ideias para evoluir este projeto:
-
-💡 IA mais inteligente (Minimax)
-
-💡 Suporte a mais modos de jogo
-
-💡 Replay automático
-
-💡 Interface gráfica
-
-📜 Licença
-
-Este projeto está licenciado sob a MIT License.
-(Use, modifique e compartilhe livremente.)
+Menu inicial
 
 👨‍💻 Autor
 
-José Gustavo Martinho Araújo de Almeida 📍 João Pessoa - PB 🔗 GitHub: https://github.com/JoseGustavoMartinho
+José Gustavo Martinho Araújo de Almeida
+📍 João Pessoa - PB
+🔗 GitHub: https://github.com/JoseGustavoMartinho
 
 🔗 LinkedIn: https://linkedin.com/in/josegustavomartinho
