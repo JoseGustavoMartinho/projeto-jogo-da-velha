@@ -105,6 +105,8 @@ Algumas ideias para evoluir este projeto:
 Este projeto está licenciado sob a MIT License.
 (Use, modifique e compartilhe livremente.)
 
-📌 Créditos
+👨‍💻 Autor
 
-José Gustavo Martinho Araujo de Almeida
+José Gustavo Martinho Araújo de Almeida 📍 João Pessoa - PB 🔗 GitHub: https://github.com/JoseGustavoMartinho
+
+🔗 LinkedIn: https://linkedin.com/in/josegustavomartinho
